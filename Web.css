@@ -1,0 +1,387 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    
+
+}
+img{
+    display:block;
+}
+
+/*menu custom*/
+/*
+.menu{
+    list-style: none;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+*/    
+/*    
+}
+.menu ul li{
+    display: inline-block;
+    
+    
+   
+}
+*/
+/*
+.menu ul li a{
+    text-align: center;
+    display: block;
+    padding: 30px 60px;
+    text-decoration: none;*/
+    /*texto custom con luces rgb :D*/
+    /*
+    color: rgb(106, 236, 171);
+    text-shadow: 1px 1px 5px #ccc;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(74, 79, 81);
+
+}
+*/
+.menuArreglado{
+    z-index: 3;
+    width: 100%; 
+    position: fixed;
+    
+   
+     
+}
+
+.nav {
+    
+    background-color: black;
+    height: 76px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav a{
+    margin-right: 20px ;
+    color: rgb(106, 236, 171);
+    text-shadow: 1px 1px 5px #ccc;
+    font-size: 20px;
+}
+.nav a:hover{
+    text-shadow: #ccc 1px 1px 5px;
+    transform: scale(1.2, 1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* body contenedores*/
+.cont1 {
+    
+    margin: 0px 30% 50px 30%;
+    clip-path: polygon(47% 0, 100% 0, 100% 80%, 65% 100%, 35% 100%, 0 80%, 0 0);
+    padding: 30px 30px 50px 30px;
+    text-align: center;
+    background-color: rgb(82, 198, 248);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.cont1 p1{
+    
+    font-size: 25px;
+    line-height: 40px; /* define el tamaño de distancia de una linea en otra*/
+}
+/*modificar en cuareles para resolusion menor*/
+.cont2 img {
+    width: 60%;
+    padding: 4% 20% 0 20%;
+    height: 100%;
+} 
+
+
+.tamaño{
+    font-size: 350%;
+
+
+}
+/* tabla de la pagina 1*/
+.estadisticas{
+    padding: 30px 30px 100px 130px;
+    width: 80%;
+    height: 500px;  
+}
+.estadisticas table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border:solid 2px rgb(193, 193, 193);
+    
+}
+
+
+tr:hover{
+    cursor:pointer;
+    background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b43426, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #c23323, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+.tbcolor{
+    background-color: tomato;
+
+}    
+
+
+
+
+
+
+
+
+
+
+
+/* Creditos o la parte final de la pagina :v */
+.end{
+    
+    background-color: #7e7e7e;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+}
+.creditos{
+    
+    text-decoration: none;
+    list-style: none;
+    
+    display:bock;
+    width: 40%;
+    height: 80%;
+    padding: 30px 50px 10px 50px ;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+.creditos h1{
+    /*sacado del internet sobre letras neon con shadow*/
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa,
+    0 0 54px #0fa; 
+    text-align: center;
+    padding: 30px;
+}  
+
+.creditos ul li, a {
+    
+    list-style: none;
+    font-size: 30px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 15px #fff,
+          0 0 20px #0fa,
+          0 0 35px #0fa,
+          0 0 40px #0fa,
+          0 0 54px #0fa; 
+    
+}
+.logo{
+    display: block;
+    display: inline-block;
+}
+.logo img{
+    padding: 0 20px 0 20px;
+    width: 30px;
+}
+
+/*CREDITOS 2 LA OTRA CAJA .-.*/
+.creditos2{
+    display: block;
+    width: 40%;
+    position: absolute;
+    left:50%;
+    top:40%;
+    padding: auto;
+    
+}
+.creditos2{
+    color: #fff;
+
+    text-align: center;
+    font-size: 15px;
+}
+/* Pasiva otra pagina*/
+.inicio{
+
+    padding: 80px 0 40px 200px;
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.inicio h1 {
+    
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 14px rgb(44, 170, 224);
+
+    
+
+}
+/*espacio entre cajas*/
+.contenedorEspacio{
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+
+/*custom de titulos de habilidades*/
+
+.contM{
+    background-color: rgba(255, 194, 71, 0.754);
+    width: 100%;
+    height: 140px;
+    position: relative;
+
+}
+
+.cont3{
+    
+    width: 75%;
+    height: 100px;
+    background: #00C9FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    clip-path: polygon(0% 0%, 88% 0, 100% 50%, 73% 100%, 0% 100%);
+    padding: 10px 40px 1px 30px;
+    margin: 0% 30% 0% 0%;
+    position: absolute;
+    top: 13px;
+    
+}
+.sub img {
+    width: 60px;
+    height: 60px;
+    clip-path: circle(50.0% at 50% 50%);
+    position: absolute;
+    top: 18px;
+    left: 73%;
+    
+   
+}
+.sub{
+    padding-left: 100px;
+    display: block;
+    display: inline-block;
+    font-size: 60px;
+    color: white;
+    
+}
+.sub ul li{
+    padding: 10px 30px 10px 150px;
+}
+
+/*             cambio de posiciones de contenedoress                    */
+/* habilidades video*/
+.habilidad video{
+    width: 45%;
+    position: absolute;
+    top: 40px;
+    left: 3%;
+    
+    
+
+    
+}
+
+.cont-cajas{
+    
+    width: 100%;
+    height:500px;
+    display: block;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+/* TEXTO DE LA PASIVA*/
+.cont4{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+
+
+
+    width: 40%;
+    
+    background-color: #B5B2B2;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top:25%
+    
+}
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+/*       #####################################################################     */
+
+/*tablas custom opcional */
+#main-container {
+    padding: 40px 100px 0 100px;
+}
+
+#main-container table{
+    height: 300px;
+    width: 90%;
+    border-collapse:  collapse;
+    border: solid 1px #eee;
+    padding: 3px 100px;
+    text-align: center;
+    
+}
+
+td {
+    padding: 3px 60px;
+    
+}
+th,tr {
+    padding: 3px 100px;
+    
+    
+}
+
